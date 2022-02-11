@@ -1,9 +1,9 @@
 <template>
   <footer class="footer -mx-4 md:mx-0">
     <div class="container mx-auto pb-6 flex justify-center">
-      <nuxt-link to="https://cedille.pro">
+      <a href="http://cedille.pro">
         <img :src="cedille" alt="Logo Cédille" />
-      </nuxt-link>
+      </a>
     </div>
   </footer>
 </template>
