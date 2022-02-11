@@ -9,7 +9,10 @@
     <nav class="nav ml-auto">
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0 md:mr-4 lg:mr-8">
         <li>
-          <nuxt-link to="/blog" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+          <nuxt-link
+          to="/blog"
+            v-if="posts.length > 0"
+            class="block font-medium px-4 py-1 md:p-2 lg:px-4">
             Blog
           </nuxt-link>
         </li>
@@ -34,6 +37,10 @@ import settings from '@/content/settings/general.json';
 export default class Header extends Vue {
   get pages(): Page[] {
     return this.$store.state.pages;
+  }
+
+  get posts(): Post[] {
+    return this.$store.state.posts;
   }
 
   logo = settings.logo;

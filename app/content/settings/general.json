@@ -2,9 +2,10 @@
   "title": "Accueil",
   "titleTemplate": "| Accueil",
   "welcomeText": "# Le Hublot\n\n## Espaces de coworking\n\n## Royans-Vercors\n\nUne association - deux lieux",
-  "logo": "/images/uploads/logo-carre.png",
-  "icon": "/images/uploads/logo-carre.png",
-  "loadingColor": "#0b3765",
+  "logo": "/images/uploads/logo.svg",
+  "icon": "/images/uploads/logo.png",
+  "cedille": "/images/uploads/cedille.png",
+  "loadingColor": "#00b2a0",
   "seoDescription": "Le Hublot Coworking",
   "seoMetaImage": ""
 }
