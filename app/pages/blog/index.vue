@@ -3,7 +3,7 @@
     <div class="py-8 md:py-16 text-center">
       <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Blog</h1>
       <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
-        Slow-carb messenger bag mlkshk fingerstache four dollar toast.
+        Articles du Hublot
       </h2>
     </div>
 
@@ -23,7 +23,7 @@
                 {{ post.excerpt }}
               </p>
 
-              <h6 class="text-blue-600 mt-4 font-medium">Read more</h6>
+              <h6 class="text-blue-600 mt-4 font-medium">Lire plus</h6>
             </div>
           </nuxt-link>
         </div>
@@ -46,12 +46,12 @@ const Pagination = () => import('@/components/commons/pagination.vue');
 
   head(): MetaInfo {
     return {
-      title: 'Blog',
+      title: 'Le Hublot - Articles',
       meta: [
         {
-          hid: 'description',
-          name: 'description',
-          content: 'Blog index',
+          hid: '',
+          name: '',
+          content: '',
         },
       ],
     };
