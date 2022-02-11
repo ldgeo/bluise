@@ -1,11 +1,11 @@
 {
-  "title": "Accueil",
-  "titleTemplate": "| Accueil",
-  "welcomeText": "# Espaces de coworking dans le Royans-Vercors\n\n## Une association - Deux lieux",
-  "logo": "/images/uploads/logo.svg",
-  "icon": "/images/uploads/logo.png",
-  "cedille": "/images/uploads/cedille.png",
   "loadingColor": "#00b2a0",
-  "seoDescription": "Le Hublot Coworking",
-  "seoMetaImage": ""
+  "logo": "/images/uploads/logo.svg",
+  "welcomeText": "# Espaces de coworking dans le Royans-Vercors\n\n## Une association - Deux lieux",
+  "titleTemplate": "| Accueil",
+  "title": "Accueil",
+  "icon": "/images/uploads/logo.svg",
+  "seoMetaImage": "",
+  "cedille": "/images/uploads/cedille.png",
+  "seoDescription": "Le Hublot Coworking"
 }
